@@ -83,8 +83,8 @@ public class Main {
         //task 7
         System.out.println("Задача 7");
 
-        int friday = 5;
-        for (int day = 1; day < 31; day += 7) {
+        int day = 5;
+        for (day = 1; day < 31; day += 7) {
             System.out.println("Сегодня пятница, " + day + "-е число. Необходимо подготовить отчет");
         }
         //task 8
