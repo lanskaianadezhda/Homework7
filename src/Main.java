@@ -9,7 +9,7 @@ public class Main {
         int income = 15000;
         int mounth = 0;
         while (total <= plannedIncome) {
-            total = total + income;
+            total += income;
             total = total + total / 100;
             mounth++;
             System.out.println("Месяц " + mounth + " сумма накоплений равна " + total + " рублей");
@@ -82,6 +82,7 @@ public class Main {
 
         //task 7
         System.out.println("Задача 7");
+
         int friday = 5;
         for (int day = 1; day < 31; day += 7) {
             System.out.println("Сегодня пятница, " + day + "-е число. Необходимо подготовить отчет");
